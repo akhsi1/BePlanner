@@ -1,0 +1,246 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Keyboard Shortcut\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-09 12:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: php/settings_page.php:21
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#: php/settings_page.php:44
+msgid "WP Keyboard Shortcut List"
+msgstr ""
+
+#: php/settings_page.php:54 php/settings_page.php:203
+msgid "Add Shortcut"
+msgstr ""
+
+#: php/settings_page.php:60
+msgid "ID"
+msgstr ""
+
+#: php/settings_page.php:61 php/settings_page.php:147 php/wpks_functions.php:63
+msgid "Name"
+msgstr ""
+
+#: php/settings_page.php:63
+msgid "Mode"
+msgstr ""
+
+#: php/settings_page.php:66
+msgid "KeyCode"
+msgstr ""
+
+#: php/settings_page.php:68 php/settings_page.php:196
+msgid "Comment"
+msgstr ""
+
+#: php/settings_page.php:69
+msgid "Action"
+msgstr ""
+
+#: php/settings_page.php:117
+msgid "Edit Shortcut"
+msgstr ""
+
+#: php/settings_page.php:137
+msgid "Add a new Shortcut"
+msgstr ""
+
+#: php/settings_page.php:151 php/wpks_functions.php:67
+msgid "Select shortcut mode"
+msgstr ""
+
+#: php/settings_page.php:151 php/wpks_functions.php:67
+msgid ""
+"Shortcut modes: 1. Url : This mode will redirect user to specific url. 2. "
+"Show/Hide: Specific HTML dom element selectors will toggle by pressing "
+"shortcut. 3. Remove: This mode will help to remove some HTML dom element "
+"selector."
+msgstr ""
+
+#: php/settings_page.php:162 php/wpks_functions.php:87
+msgid ""
+"Type your desired keyboard shortcut here. But this will only work on windows."
+" Mac-OS keyboard shortcut will appear on pro version."
+msgstr ""
+
+#: php/settings_page.php:163 php/wpks_functions.php:90
+msgid "Enter shortcut key"
+msgstr ""
+
+#: php/settings_page.php:166 php/wpks_functions.php:92
+msgid "Clear"
+msgstr ""
+
+#: php/settings_page.php:170 php/wpks_functions.php:97
+msgid "URL"
+msgstr ""
+
+#: php/settings_page.php:170 php/wpks_functions.php:97
+msgid ""
+"Link Tags: {{home_url}} {{admin_url}} {{bp_user_profile_url}} {{logout_url}} "
+"{{user_name}} {{user_id}} or you may paste your desired link to this url box."
+msgstr ""
+
+#: php/settings_page.php:171
+msgid "Type or paste URL/URL_tag here"
+msgstr ""
+
+#: php/settings_page.php:175 php/wpks_functions.php:104
+msgid ""
+"Select your url target, 1. self: URL will open on same tab. 2. blank: URL "
+"will open on new tab."
+msgstr ""
+
+#: php/settings_page.php:177 php/wpks_functions.php:108
+msgid "Self (Link will open in same tab)"
+msgstr ""
+
+#: php/settings_page.php:178 php/wpks_functions.php:109
+msgid "Blank (Link will open in new tab)"
+msgstr ""
+
+#: php/settings_page.php:185 php/wpks_functions.php:116
+msgid "Toggle Dom Element"
+msgstr ""
+
+#: php/settings_page.php:191 php/wpks_functions.php:122
+msgid "Remove Dom Element"
+msgstr ""
+
+#: php/settings_page.php:216
+msgid "Shortcut Details"
+msgstr ""
+
+#: php/settings_page.php:236
+msgid "Remove Title"
+msgstr ""
+
+#: php/settings_page.php:239
+msgid "Are you sure, you want to delete it ?"
+msgstr ""
+
+#: php/settings_page.php:242
+msgid "Yes"
+msgstr ""
+
+#: php/settings_page.php:243
+msgid "Cancel"
+msgstr ""
+
+#: php/settings_page.php:250
+msgid "Go to Pro"
+msgstr ""
+
+#: php/settings_page.php:252
+msgid "Powered By"
+msgstr ""
+
+#: php/wpks_functions.php:28
+msgid "Please fill out required fields."
+msgstr ""
+
+#: php/wpks_functions.php:87
+msgid "Windows KeyCode"
+msgstr ""
+
+#: php/wpks_functions.php:104
+msgid "Select url target"
+msgstr ""
+
+#: php/wpks_functions.php:116
+msgid ""
+"Type or paste HTML dom element here to toggle(show or hide) HTML dom "
+"selector."
+msgstr ""
+
+#: php/wpks_functions.php:122
+msgid ""
+"Type or paste HTML dom element here to remove your desired HTML dom element."
+msgstr ""
+
+#: php/wpks_functions.php:126
+msgid "Write any comment to describe this shortcut."
+msgstr ""
+
+#: php/wpks_functions.php:130
+msgid "Save"
+msgstr ""
+
+#: php/wpks_functions.php:162
+msgid "blank (Opens the linked document in a new tab)"
+msgstr ""
+
+#: php/wpks_functions.php:164
+msgid "self (Opens the linked document in the same Tab)"
+msgstr ""
+
+#: php/wpks_functions.php:173
+msgid "URL:"
+msgstr ""
+
+#: php/wpks_functions.php:174
+msgid "Target:"
+msgstr ""
+
+#: php/wpks_functions.php:178
+msgid "Toggle Dom Element:"
+msgstr ""
+
+#: php/wpks_functions.php:182
+msgid "Remove Dom Element:"
+msgstr ""
+
+#: php/wpks_functions.php:185
+msgid "Comment:"
+msgstr ""
+
+#: php/wpks_functions.php:261
+msgid ""
+"You have reached the max limit of free WP Keyboard Shortcut. Please go to "
+"pro !"
+msgstr ""
+
+#: php/wpks_functions.php:342
+msgid ""
+"<h4 class=\"modal-title\"> You can't use this KeyCode !</h4>\n"
+"      <h5>Shortcut Matched with: "
+msgstr ""
+
+#: php/wpks_functions.php:366
+msgid "<h5>This keycode already exists</h5>"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Keyboard Shortcut"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Best way to browse any page by shortcut keycode. And this makes a site more "
+"confortable to use."
+msgstr ""
+
+#. URI of the plugin
+msgid "wpks.wpdevs.cf"
+msgstr ""
+
+#. Author of the plugin
+msgid "RAYHAN KABIR"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "wpdevs.cf"
+msgstr ""
