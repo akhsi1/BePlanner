@@ -1,0 +1,13 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-embedpress-embedpress iframe{
+	max-width: 100%;
+}
+.ose-the-new-york-times iframe{
+	min-height: 500px;
+	max-height: 100%;
+}
