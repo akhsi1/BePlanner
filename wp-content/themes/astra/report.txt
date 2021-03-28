@@ -1,0 +1,3803 @@
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+offset no: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+offset no: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+current offset: 0
+
+offset no: 0
+
+offset no: 0
+
+offset no: 0
+
+offset no: 0
+
+offset no: 0
+
+offset no: 0
+
+10offset no: 0
+
+wotoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 0
+
+offset no: 110
+
+offset no: 10
+
+offset no: 120
+
+offset no: 20
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 0
+
+offset no: 30
+
+offset no: 10
+
+offset no: 10
+
+offset no: 40
+
+offset no: 20
+
+offset no: 50
+
+offset no: 20
+
+offset no: 30
+
+offset no: 60
+
+offset no: 30
+
+offset no: 0
+
+offset no: 40
+
+offset no: 70
+
+offset no: 40
+
+offset no: 10
+
+offset no: 50
+
+offset no: 80
+
+offset no: 50
+
+offset no: 20
+
+offset no: 60
+
+offset no: 90
+
+offset no: 60
+
+offset no: 30
+
+offset no: 70
+
+offset no: 100
+
+offset no: 70
+
+offset no: 40
+
+offset no: 80
+
+offset no: 110
+
+offset no: 80
+
+offset no: 50
+
+offset no: 90
+
+offset no: 120
+
+offset no: 60
+
+offset no: 90
+
+offset no: 100
+
+offset no: 130
+
+wrong resultsoffset no: 70
+
+offset no: 100
+
+offset no: 110
+
+offset no: 80
+
+offset no: 110
+
+offset no: 90
+
+offset no: 120
+
+offset no: 120
+
+offset no: 100
+
+offset no: 130
+
+wrong resultsoffset no: 130
+
+wrong resultsoffset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 0
+
+offset no: 110
+
+offset no: 10
+
+offset no: 120
+
+offset no: 20
+
+offset no: 130
+
+wrong resultsoffset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 0
+
+offset no: 60
+
+offset no: 10
+
+offset no: 0
+
+offset no: 70
+
+offset no: 20
+
+offset no: 10
+
+offset no: 80
+
+offset no: 30
+
+offset no: 20
+
+offset no: 90
+
+offset no: 40
+
+offset no: 30
+
+offset no: 100
+
+offset no: 50
+
+offset no: 40
+
+offset no: 110
+
+offset no: 0
+
+offset no: 60
+
+offset no: 50
+
+offset no: 120
+
+offset no: 10
+
+offset no: 70
+
+offset no: 60
+
+offset no: 130
+
+wrong resultsoffset no: 20
+
+offset no: 80
+
+offset no: 70
+
+offset no: 0
+
+offset no: 30
+
+offset no: 90
+
+offset no: 80
+
+offset no: 10
+
+offset no: 40
+
+offset no: 90
+
+offset no: 100
+
+offset no: 20
+
+offset no: 50
+
+offset no: 100
+
+offset no: 110
+
+offset no: 30
+
+offset no: 60
+
+offset no: 110
+
+offset no: 120
+
+offset no: 40
+
+offset no: 70
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 50
+
+offset no: 80
+
+offset no: 130
+
+wrong resultsoffset no: 60
+
+offset no: 90
+
+offset no: 70
+
+offset no: 100
+
+offset no: 80
+
+offset no: 110
+
+offset no: 90
+
+offset no: 120
+
+offset no: 100
+
+offset no: 130
+
+wrong resultsoffset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 0
+
+offset no: 60
+
+offset no: 10
+
+offset no: 70
+
+offset no: 20
+
+offset no: 80
+
+offset no: 30
+
+offset no: 90
+
+offset no: 40
+
+offset no: 100
+
+offset no: 50
+
+offset no: 110
+
+offset no: 60
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 0
+
+offset no: 100
+
+offset no: 10
+
+offset no: 110
+
+offset no: 20
+
+offset no: 120
+
+offset no: 30
+
+offset no: 130
+
+wrong resultsoffset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 0
+
+offset no: 110
+
+offset no: 10
+
+offset no: 120
+
+offset no: 20
+
+offset no: 130
+
+wrong resultsoffset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 0
+
+offset no: 100
+
+offset no: 10
+
+offset no: 110
+
+offset no: 20
+
+offset no: 120
+
+offset no: 30
+
+offset no: 130
+
+wrong resultsoffset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 0
+
+offset no: 60
+
+offset no: 10
+
+offset no: 70
+
+offset no: 20
+
+offset no: 80
+
+offset no: 0
+
+offset no: 0
+
+offset no: 30
+
+offset no: 90
+
+offset no: 10
+
+offset no: 10
+
+offset no: 40
+
+offset no: 100
+
+offset no: 20
+
+offset no: 20
+
+offset no: 50
+
+offset no: 110
+
+offset no: 0
+
+offset no: 0
+
+offset no: 30
+
+offset no: 30
+
+offset no: 60
+
+offset no: 120
+
+offset no: 10
+
+offset no: 10
+
+offset no: 40
+
+offset no: 40
+
+offset no: 70
+
+offset no: 0
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 20
+
+offset no: 20
+
+offset no: 50
+
+offset no: 50
+
+offset no: 80
+
+offset no: 10
+
+offset no: 10
+
+offset no: 30
+
+offset no: 30
+
+offset no: 60
+
+offset no: 60
+
+offset no: 90
+
+offset no: 20
+
+offset no: 40
+
+offset no: 40
+
+offset no: 20
+
+offset no: 70
+
+offset no: 70
+
+offset no: 100
+
+offset no: 30
+
+offset no: 50
+
+offset no: 30
+
+offset no: 50
+
+offset no: 80
+
+offset no: 80
+
+offset no: 110
+
+offset no: 40
+
+offset no: 60
+
+offset no: 40
+
+offset no: 60
+
+offset no: 90
+
+offset no: 90
+
+offset no: 50
+
+offset no: 120
+
+offset no: 70
+
+offset no: 50
+
+offset no: 70
+
+offset no: 100
+
+offset no: 100
+
+offset no: 60
+
+offset no: 130
+
+wrong resultsoffset no: 80
+
+offset no: 60
+
+offset no: 80
+
+offset no: 110
+
+offset no: 110
+
+offset no: 70
+
+offset no: 90
+
+offset no: 70
+
+offset no: 90
+
+offset no: 120
+
+offset no: 120
+
+offset no: 80
+
+offset no: 100
+
+offset no: 80
+
+offset no: 100
+
+offset no: 130
+
+wrong resultsoffset no: 90
+
+offset no: 130
+
+wrong resultsoffset no: 110
+
+offset no: 90
+
+offset no: 110
+
+offset no: 100
+
+offset no: 120
+
+offset no: 100
+
+offset no: 120
+
+offset no: 110
+
+offset no: 130
+
+wrong resultsoffset no: 110
+
+offset no: 130
+
+wrong resultsoffset no: 120
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 0
+
+offset no: 100
+
+offset no: 10
+
+offset no: 110
+
+offset no: 20
+
+offset no: 120
+
+offset no: 30
+
+offset no: 130
+
+wrong resultsoffset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 0
+
+offset no: 90
+
+offset no: 10
+
+offset no: 100
+
+offset no: 20
+
+offset no: 110
+
+offset no: 30
+
+offset no: 120
+
+offset no: 40
+
+offset no: 130
+
+wrong resultsoffset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong resultsoffset no: 0
+
+offset no: 10
+
+offset no: 20
+
+offset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 0
+
+offset no: 110
+
+offset no: 10
+
+offset no: 120
+
+offset no: 20
+
+offset no: 130
+
+wrong resultsoffset no: 30
+
+offset no: 40
+
+offset no: 50
+
+offset no: 60
+
+offset no: 70
+
+offset no: 80
+
+offset no: 90
+
+offset no: 100
+
+offset no: 110
+
+offset no: 120
+
+offset no: 130
+
+wrong results
