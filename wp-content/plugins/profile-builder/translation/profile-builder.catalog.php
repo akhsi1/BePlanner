@@ -387,7 +387,6 @@
 <?php __("<strong>ERROR</strong>: The password must have a minimum strength of %s", "profile-builder"); ?>
 <?php __("Save Settings", "profile-builder"); ?>
 <?php __("Add Field", "profile-builder"); ?>
-<?php __("If you enjoy using <strong> %1$s </strong> please <a href=\"%2$s\" target=\"_blank\">rate us on WordPress.org</a>. More happy users means more features, less bugs and better support for everyone. ", "profile-builder"); ?>
 <?php __("View Profile Builder documentation", "profile-builder"); ?>
 <?php __("Docs", "profile-builder"); ?>
 <?php __("All the free add-ons have been migrated to the main plugin. Their old individual plugins have been disabled and you can delete them from your site if you were using them: <ul><li>Profile Builder - Custom CSS Classes on fields</li><li>Profile Builder - Customization Toolbox Add-On</li><li>Profile Builder - Email Confirmation Field</li><li>Profile Builder - GDPR Communication Preferences</li><li>Profile Builder - Import and Export Add-On</li><li>Profile Builder - Labels Edit Add-On</li><li>Profile Builder - Maximum Character Length Add-On</li><li>Profile Builder - Multiple Admin E-mails Add-On</li><li>Profile Builder - Placeholder Labels Add-On</li></ul>", "profile-builder"); ?>
@@ -1026,6 +1025,8 @@
 <?php __("The entered value for the Datepicker is not a valid date-format\n", "profile-builder"); ?>
 <?php __("You must enter a value for the date-format\n", "profile-builder"); ?>
 <?php __("The meta-name cannot be empty\n", "profile-builder"); ?>
+<?php __("The meta-name cannot begin with a space\n", "profile-builder"); ?>
+<?php __("The meta-name cannot end with a space\n", "profile-builder"); ?>
 <?php __("That meta-name is already in use\n", "profile-builder"); ?>
 <?php __("That meta-name can't be used, please choose another\n", "profile-builder"); ?>
 <?php __("The meta-name can only contain lowercase letters, numbers, _ , - and no spaces.\n", "profile-builder"); ?>
@@ -1103,6 +1104,12 @@
 <?php __("<p>Your <strong>Profile Builder</strong> license has expired. <br/>Please %1$sRenew Your Licence%2$s to continue receiving access to product downloads, automatic updates and support. %3$sRenew now %4$s %5$sDismiss%6$s</p>", "profile-builder"); ?>
 <?php __("<p>Your <strong>Profile Builder</strong> license has expired. <br/>Please %1$sRenew Your Licence%2$s to continue receiving access to product downloads, automatic updates and support. %3$sRenew now %4$s</p>", "profile-builder"); ?>
 <?php __("<p>Your <strong>Profile Builder</strong> serial number is invalid or missing. <br/>Please %1$sregister your copy%2$s to receive access to automatic updates and support. Need a license key? %3$sPurchase one now%4$s</p>", "profile-builder"); ?>
+<?php __("Hello! Seems like you've been using Profile Builder to create front-end user forms. That's awesome!", "profile-builder"); ?>
+<?php __("If you can spare a few moments to rate it on WordPress.org, it would help us a lot (and boost my motivation).", "profile-builder"); ?>
+<?php __("~ Paul, developer of Profile Builder", "profile-builder"); ?>
+<?php __("Ok, I will gladly help!", "profile-builder"); ?>
+<?php __("No, thanks.", "profile-builder"); ?>
+<?php __("If you enjoy using <strong> %1$s </strong> please <a href=\"%2$s\" target=\"_blank\">rate us on WordPress.org</a>. More happy users means more features, less bugs and better support for everyone. ", "profile-builder"); ?>
 <?php __("GDPR Checkbox", "profile-builder"); ?>
 <?php __("I allow the website to collect and store the data I submit through this form.", "profile-builder"); ?>
 <?php __("Strength indicator", "profile-builder"); ?>
@@ -1487,6 +1494,7 @@
 <?php __("Do you want to bulk delete the selected users?", "profile-builder"); ?>
 <?php __("Do you want to bulk unapprove the selected users?", "profile-builder"); ?>
 <?php __("Do you want to bulk approve the selected users?", "profile-builder"); ?>
+<?php __("Pending", "profile-builder"); ?>
 <?php __("All Users", "profile-builder"); ?>
 <?php __("Conditional Logic", "profile-builder"); ?>
 <?php __("Conditional Rules", "profile-builder"); ?>

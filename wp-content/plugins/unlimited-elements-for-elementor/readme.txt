@@ -521,6 +521,17 @@ Note : This plugin works with Elementor. Make sure you have [Elementor](https://
 
 == Changelog ==
 
+version 1.4.69 = 2021-04-04
+
+* Feature: added extra query debug options for custom post types selector
+* Feature: added choose image size select option to image attribute
+* Feature: added "image_attributes" placeholder for image output in widget editor
+* Change: added default values select to hover animations attribute
+* Change: changed button "add to cart" to "select options" for variable products in woocommerce list widgets
+* Fix: fixed border radius attribute from width to radius
+* Fix: added missing thumb sizes for image select
+
+
 version 1.4.68 = 2021-03-22
 
 * Feature: added include recently viewed products in woocommerce

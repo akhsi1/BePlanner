@@ -1102,6 +1102,11 @@ add_filter( 'wppb_woo_extra_attribute', 'wppb_add_html_tag_required_to_woo_field
 function wppb_manage_required_attribute() {
 	global $wppb_shortcode_on_front;
 	if ($wppb_shortcode_on_front) {
+	    //check if jquery has been loaded yet because we need it at this point
+        // we're checking if it's not admin because it brakes elementor otherwise.
+        if( !wp_script_is('jquery', 'done') && !is_admin() ){
+            wp_print_scripts('jquery');
+        }
 		?>
 		<script type="text/javascript">
 			jQuery(document).on( "wppbAddRequiredAttributeEvent", wppbAddRequired );

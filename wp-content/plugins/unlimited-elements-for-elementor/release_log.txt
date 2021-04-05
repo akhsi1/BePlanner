@@ -1,5 +1,17 @@
 
 
+version 1.4.69
+
+-Bug fix: fixed border radius attribute from width to radius
+-Change: added default values select to hover animations attribute
+-feature: added extra query debug options for custom post types selector
+-feature: added choose image size select option to image attribute
+-bug fix: added missing thumb sizes for image select
+-feature: added "image_attributes" placeholder for image output in widget editor
+-change: changed button "add to cart" to "select options" for variable products in woocommerce list widgets
+
+
+
 version 1.4.68
 
 -feature: added include recently viewed products in woocommerce

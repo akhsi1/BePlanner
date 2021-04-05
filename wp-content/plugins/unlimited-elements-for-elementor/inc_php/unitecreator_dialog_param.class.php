@@ -208,7 +208,7 @@ class UniteCreatorDialogParamWork{
 		$this->addParam(self::PARAM_SLIDER, esc_html__("Slider", "unlimited-elements-for-elementor"));
 		$this->addParam(self::PARAM_DATETIME, esc_html__("Date Time", "unlimited-elements-for-elementor"));
 		
-		$this->addParam(self::PARAM_BORDER_DIMENTIONS, esc_html__("Border Dimensions", "unlimited-elements-for-elementor"));
+		$this->addParam(self::PARAM_BORDER_DIMENTIONS, esc_html__("Border Radius", "unlimited-elements-for-elementor"));
 		$this->addParam(self::PARAM_CSS_FILTERS, esc_html__("Css Filters", "unlimited-elements-for-elementor"));
 		$this->addParam(self::PARAM_HOVER_ANIMATIONS, esc_html__("Hover Animations", "unlimited-elements-for-elementor"));
 		
@@ -551,12 +551,15 @@ class UniteCreatorDialogParamWork{
 	private function putImageParam(){
 		
 		?>
-			
 			<div class="unite-inputs-sap"></div>
 						
 			<?php $this->putImageSelectInput("default_value",esc_html__("Default Image","unlimited-elements-for-elementor")); ?>
 			
-		<?php 
+			<div class="unite-inputs-sap-double"></div>
+			
+			<?php $this->putCheckbox("add_image_sizes", __("Add Image Size Select","unlimited-elements-for-elementor"))?>
+		
+		<?php
 	}
 	
 	

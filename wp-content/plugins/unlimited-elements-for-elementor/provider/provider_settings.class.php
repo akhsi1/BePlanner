@@ -1649,6 +1649,21 @@ class UniteCreatorSettings extends UniteCreatorSettingsWork{
 		
 		$this->addRadioBoolean($name."_show_query_debug", __("Show Query Debug", "unlimited-elements-for-elementor"), false, "Yes", "No", $params);
 		
+		//--------- debug type ---------
+		
+		$params = array();
+		$params["origtype"] = UniteCreatorDialogParam::PARAM_DROPDOWN;
+		$params["elementor_condition"] = array($name."_show_query_debug"=>"true");
+		
+		$arrType = array();
+		$arrType["basic"] = __("Basic", "unlimited-elements-for-elementor");
+		$arrType["show_query"] = __("Show Raw DB Query", "unlimited-elements-for-elementor");
+		
+		$arrType = array_flip($arrType);
+		
+		$this->addSelect($name."_query_debug_type", $arrType, __("Debug Options", "unlimited-elements-for-elementor"), "basic", $params);
+				
+		
 	}
 	
 	

@@ -268,7 +268,26 @@ class HelperProviderCoreUC_EL{
 				
 		return(self::$arrWidgetNames);
 	}
+	
+	/**
+	 * get hover animation classes
+	 */
+	public static function getHoverAnimationClasses($addNotChosen = false){
 		
+		$arrAnimations = \Elementor\Control_Hover_Animation::get_animations();
+		
+		$arrAnimationsNew = array();
+		
+		if($addNotChosen == true)
+			$arrAnimationsNew[""] = __("Not Chosen","unlimited-elements-for-elementor");
+		
+		foreach($arrAnimations as $key=>$value)
+			$arrAnimationsNew["elementor-animation-".$key] = $value;
+		
+		return($arrAnimationsNew);
+	}
+	
+	
 	/**
 	 * global init
 	 */

@@ -888,6 +888,14 @@ jQuery(document).ready(function(){
 		else
 			$arrParams[] = $this->createChildParam_underscore(null);
 		
+		$prefix = "image_";
+		if($isSingle == true)
+			$prefix = "";
+		
+		$arrParams[] = $this->createChildParam_image("{$prefix}attributes|raw", $isSingle);
+		$arrParams[] = $this->createChildParam_image("{$prefix}attributes_nosize|raw", $isSingle);
+		
+			
 		$arrSizes = $this->getArrImageThumbSizes();
 		
 		foreach($arrSizes as $size=>$desc){
@@ -910,11 +918,7 @@ jQuery(document).ready(function(){
 			$arrParams[] = $this->createChildParam_code("{{".self::PARAM_PREFIX."_".$key."}}", $thumbCode, false, true);
 		}
 		
-		
-		$prefix = "image_";
-		if($isSingle == true)
-			$prefix = "";
-		
+				
 		$arrParams[] = $this->createChildParam_image("{$prefix}title", $isSingle);
 		$arrParams[] = $this->createChildParam_image("{$prefix}alt", $isSingle);
 		$arrParams[] = $this->createChildParam_image("{$prefix}description", $isSingle);

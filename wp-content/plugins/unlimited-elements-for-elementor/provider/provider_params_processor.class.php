@@ -628,6 +628,10 @@ class UniteCreatorParamsProcessor extends UniteCreatorParamsProcessorWork{
 		$showDebugQuery = UniteFunctionsUC::getVal($value, "{$name}_show_query_debug");
 		$showDebugQuery = UniteFunctionsUC::strToBool($showDebugQuery);
 		
+		$debugType = null;
+		if($showDebugQuery == true)
+			$debugType = UniteFunctionsUC::getVal($value, "{$name}_query_debug_type");
+				
 		$source = UniteFunctionsUC::getVal($value, "{$name}_source");
 		
 		$isForWoo = UniteFunctionsUC::getVal($param, "for_woocommerce_products");
@@ -1066,15 +1070,21 @@ class UniteCreatorParamsProcessor extends UniteCreatorParamsProcessorWork{
 			dmp("The Query Is:");
 			dmp($args);
 		}
-		
-		//$arrPosts = get_posts($args);
-		
+				
 		$query = new WP_Query($args);
 		
+		if($showDebugQuery == true && $debugType == "show_query"){
+			
+			dmp("The Query Request Is:");
+			dmp($query->request);
+		}
+		
 		/*
-		dmp($query->query);
-		dmp($query->post_count);
-		dmp($query->found_posts);
+			dmp($query->request);
+			dmp("the query");
+			dmp($query->query);
+			dmp($query->post_count);
+			dmp($query->found_posts);
 		*/
 		
 		$arrPosts = $query->posts;
@@ -1990,6 +2000,28 @@ class UniteCreatorParamsProcessor extends UniteCreatorParamsProcessorWork{
 		
 			
 		return($data);
+	}
+	
+	/**
+	 * set extra params value, add it to the param values fields
+	 * like value_extra = something
+	 */
+	public function setExtraParamsValues($paramType, $param, $name, $arrValues){
+		
+	    switch($paramType){
+	    	//add size param for image
+	    	case UniteCreatorDialogParam::PARAM_IMAGE:
+			
+	    		$isAddSizes = UniteFunctionsUC::getVal($param, "add_image_sizes");
+	    		$isAddSizes = UniteFunctionsUC::strToBool($isAddSizes);
+	    		
+	    		if($isAddSizes == true)
+	    			$param["value_size"] = UniteFunctionsUC::getVal($arrValues, $name."_size");
+	    		
+	    	break;
+	    }
+				
+	    return($param);
 	}
 	
 	

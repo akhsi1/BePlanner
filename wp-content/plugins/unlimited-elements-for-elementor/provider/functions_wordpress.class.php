@@ -15,6 +15,7 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 		private static $arrUrlThumbCache = array();
 		private static $arrUrlAttachmentDataCache = array();
 		private static $cacheAuthorsShort = null;
+		private static $arrThumbSizesCache = null;
 		public static $arrLastTermsArgs;
 		
 		const SORTBY_NONE = "none";
@@ -2066,50 +2067,79 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 		
 		/**
 		 * get thumbnail sizes array
-		 * mode: null, "small_only", "big_only"
 		 */
-		public static function getArrThumbSizes($mode = null){
-			global $_wp_additional_image_sizes;
+		public static function getArrThumbSizes(){
 			
+			if(!empty(self::$arrThumbSizesCache))
+				return(self::$arrThumbSizesCache);
+			
+			global $_wp_additional_image_sizes;
+						
 			$arrWPSizes = get_intermediate_image_sizes();
-		
+					
 			$arrSizes = array();
 		
-			if($mode != "big_only"){
-				$arrSizes[self::THUMB_SMALL] = "Thumbnail (150x150)";
-				$arrSizes[self::THUMB_MEDIUM] = "Medium (max width 300)";
-			}
-		
-			if($mode == "small_only")
-				return($arrSizes);
-		
+			
 			foreach($arrWPSizes as $size){
-				$title = ucfirst($size);
-				switch($size){
-					case self::THUMB_LARGE:
-					case self::THUMB_MEDIUM:
-					case self::THUMB_FULL:
-					case self::THUMB_SMALL:
-						continue(2);
-						break;
-					case "ug_big":
-						$title = esc_html__("Big", "unlimited-elements-for-elementor");
-						break;
-				}
-		
+								
+				$title = UniteFunctionsUC::convertHandleToTitle($size);
+				
+				$maxWidth = null;
+				$maxHeight = null;
+				$isCrop = false;
+				
+				//get max width from option or additional sizes array
 				$arrSize = UniteFunctionsUC::getVal($_wp_additional_image_sizes, $size);
-				$maxWidth = UniteFunctionsUC::getVal($arrSize, "width");
-		
-				if(!empty($maxWidth))
-					$title .= " (max width $maxWidth)";
-		
+				if(!empty($arrSize)){
+					$maxWidth = UniteFunctionsUC::getVal($arrSize, "width");
+					$maxHeight = UniteFunctionsUC::getVal($arrSize, "height");
+					$crop = UniteFunctionsUC::getVal($arrSize, "crop");
+				}
+				
+				if(empty($maxWidth)){
+					$maxWidth = intval(get_option("{$size}_size_w"));
+					$maxHeight = intval(get_option("{$size}_size_h"));
+					$crop = intval(get_option("{$size}_crop"));
+				}
+				
+				if(empty($maxWidth)){
+					$arrSizes[$size] = $title;
+					continue;
+				}
+				
+				//add the text addition
+				$addition = "";
+				if($crop == true)
+					$addition = "({$maxWidth}x{$maxHeight})";
+				else
+					$addition = "(max width $maxWidth)";
+				
+				$title .= " ".$addition;
+				
 				$arrSizes[$size] = $title;
 			}
-		
-			$arrSizes[self::THUMB_LARGE] = esc_html__("Large (max width 1024)", "unlimited-elements-for-elementor");
-			$arrSizes[self::THUMB_FULL] = esc_html__("Full", "unlimited-elements-for-elementor");
-		
-			return($arrSizes);
+			
+			$arrSizes["full"] = __("Full Size", "unlimited-elements-for-elementor");
+			
+			//sort
+			$arrNew = array();
+			
+			$topKeys = array("medium_large", "large", "medium", "thumbnail", "full");
+			
+			foreach($topKeys as $key){
+				
+				if(!isset($arrSizes[$key]))
+					continue;
+				
+				$arrNew[$key] = $arrSizes[$key];
+				unset($arrSizes[$key]);
+			}
+						
+			$arrNew = array_merge($arrNew, $arrSizes);
+
+			self::$arrThumbSizesCache = $arrNew;
+			
+			return($arrNew);
 		}
 		
 		

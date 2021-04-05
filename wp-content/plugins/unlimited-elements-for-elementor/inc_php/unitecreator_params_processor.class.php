@@ -705,7 +705,7 @@ class UniteCreatorParamsProcessorWork{
 	 * create param with full fields
 	 */
 	protected function getImageFields($data, $name, $value){
-		
+				
 		if(empty($data))
 			$data = array();
 		
@@ -720,13 +720,102 @@ class UniteCreatorParamsProcessorWork{
 		return($data);
 	}
 	
+	/**
+	 * get image key
+	 */
+	private function addImageAttributes_getImageKey($paramName, $name, $param, $data){
+		
+		$imageSize = null;
+		
+		$chosenImageSize = UniteFunctionsUC::getVal($param, $paramName);
+		if(!empty($chosenImageSize))
+			$imageSize = $chosenImageSize;
+				
+		if($imageSize == "full")
+			$imageSize = null;
+			
+		$imageKey = $name;
+		switch($imageSize){
+			case "medium":
+				$imageKey = "{$name}_thumb";
+			break;
+			case "large":
+				$imageKey = "{$name}_thumb_large";
+			break;
+			default:
+				$imageKey = "{$name}_thumb_{$imageSize}";
+			break;
+		}
+		
+		if(isset($data[$imageKey]) == false)
+			$imageKey = $name;	
+		
+		return($imageKey);
+	}
+	
+	/**
+	 * add image attributes
+	 */
+	private function addImageAttributes($data, $name, $param){
+
+		$addImageSizes = UniteFunctionsUC::getVal($param, "add_image_sizes");
+		$addImageSizes = UniteFunctionsUC::strToBool($addImageSizes);
+		
+		$imageKey = $name;
+		
+		if($addImageSizes == true){
+			$imageKey = $this->addImageAttributes_getImageKey("value_size", $name, $param, $data);
+		}
+				
+		$url = UniteFunctionsUC::getVal($data, $imageKey);
+		$width = UniteFunctionsUC::getVal($data, $imageKey."_width");
+		$height = UniteFunctionsUC::getVal($data, $imageKey."_height");
+		
+		$attributes = "";
+		
+		$attributes .= " src=\"{$url}\"";
+
+		//add alt
+		
+		$alt = UniteFunctionsUC::getVal($data, "{$name}_alt");
+		
+		if(!empty($alt)){
+			
+			$alt = esc_attr($alt);
+			$attributes .= " alt=\"{$alt}\"";
+			
+		}
+		
+		$data[$name."_attributes_nosize"] = $attributes;
+		
+		//add width and height
+		
+		if(!empty($width)){
+			$attributes .= " width=\"$width\"";
+			$attributes .= " height=\"$height\"";
+		}
+				
+		$data[$name."_attributes"] = $attributes;
+		
+		//change the "image" to the given url
+		if($addImageSizes == true && !empty($url)){
+			$data[$name] = $url;
+			if(!empty($width)){
+				$data[$name."_width"] = $width;
+				$data[$name."_height"] = $height;
+			}			
+		}
+		
+					
+		return($data);
+	}
 	
 	/**
 	 * process image param value, add to data
 	 * @param  $param
 	 */
 	protected function getProcessedParamsValue_image($data, $value, $param){
-		
+				
 		$name = $param["name"];
 		
 		$urlImage = $value;		//in case that the value is image id
@@ -738,24 +827,12 @@ class UniteCreatorParamsProcessorWork{
 			$value = HelperUC::URLtoFull($value);
 			$data[$name] = $value;
 		}
-	
-		//add thumb
-		
-		$urlThumb = HelperUC::$operations->getThumbURLFromImageUrl($value, null, GlobalsUC::THUMB_SIZE_NORMAL);
-		$urlThumb = HelperUC::URLtoFull($urlThumb);
-		
-		$data[$name."_thumb"] = $urlThumb;
-	
-		//add thumb large
-		
-		$urlThumb = HelperUC::$operations->getThumbURLFromImageUrl($value, null, GlobalsUC::THUMB_SIZE_LARGE);
-		$urlThumb = HelperUC::URLtoFull($urlThumb);
-		
-		$data[$name."_thumb_large"] = $urlThumb;
 		
 		$data = $this->addOtherImageThumbs($data, $name, $value);
 		
 		$data = $this->addOtherImageData($data, $name, $value);
+		
+		$data = $this->addImageAttributes($data, $name, $param);
 		
 		return($data);
 	}
@@ -1357,6 +1434,7 @@ class UniteCreatorParamsProcessorWork{
 				$data = $this->getProcessedParamsValue_responsive($data, $param);
 			break;
 			case UniteCreatorDialogParam::PARAM_IMAGE:
+							
 				$data = $this->getProcessedParamsValue_image($data, $value, $param);
 				
 			break;
@@ -1425,11 +1503,11 @@ class UniteCreatorParamsProcessorWork{
 	public function getProcessedParamsValues($arrParams, $processType, $filterType = null){
 	   	
 		self::validateProcessType($processType);
-				
+		
 		$arrParams = $this->processParamsForOutput($arrParams);
 				
 		$data = array();
-	    
+	    		
 		foreach($arrParams as $param){
 	
 			$type = UniteFunctionsUC::getVal($param, "type");
@@ -1457,9 +1535,10 @@ class UniteCreatorParamsProcessorWork{
 			if($type != "imagebase_fields")
 				$data[$name] = $value;
 			
+				
 			$data = $this->getProcessedParamData($data, $value, $param, $processType);
 		}
-				
+		
 		return($data);
 	}
 	
@@ -1510,7 +1589,7 @@ class UniteCreatorParamsProcessorWork{
 		$objParams = $this->sortMainParamsForOutput($objParams);
 		
 		$arrParams = $this->getProcessedParamsValues($objParams, $processType);
-				
+		
 		$arrVars = $this->getMainVariablesProcessed($arrParams);
 				
 		if($this->isOutputProcessType($processType) == true){

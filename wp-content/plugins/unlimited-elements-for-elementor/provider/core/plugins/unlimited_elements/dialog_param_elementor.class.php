@@ -807,10 +807,15 @@ class UniteCreatorDialogParamElementor extends UniteCreatorDialogParam{
 	protected function putHoverAnimations(){
 		
 		esc_html_e("Default Value", "unlimited-elements-for-elementor");
-			
+
+		$arrAnimations = HelperProviderCoreUC_EL::getHoverAnimationClasses();
+		
+		$htmlSelect = HelperHtmlUC::getHTMLSelect($arrAnimations, "", "name='default_value'", true, "not_chosen");
+		
 		?>
 			<div class="vert_sap5"></div>
- 		    <input type="text" name="default_value">
+			
+			<?php echo $htmlSelect?>
 			
 			<div class="vert_sap10"></div>
  		    

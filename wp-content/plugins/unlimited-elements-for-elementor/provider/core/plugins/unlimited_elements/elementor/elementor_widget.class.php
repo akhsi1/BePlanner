@@ -14,6 +14,7 @@ use Elementor\Group_Control_Css_Filter;
 use Elementor\Scheme_Typography;
 use Elementor\Core\Schemes;
 use Elementor\Repeater;
+use Elementor\Utils;
 
 
 class UniteCreatorElementorWidget extends Widget_Base {
@@ -353,6 +354,10 @@ class UniteCreatorElementorWidget extends Widget_Base {
     	
     	switch($type){
     		case UniteCreatorDialogParam::PARAM_IMAGE:
+    			
+    			if(empty($value))
+    				$value = Utils::get_placeholder_image_src();
+    			
     			if(is_numeric($value))    				
     				$value = array("id"=>$value);
     			else
@@ -455,76 +460,6 @@ class UniteCreatorElementorWidget extends Widget_Base {
                 'label' => esc_html__("Items", "unlimited-elements-for-elementor"),
                     )
           );
-    	 
-		
-		/*
-		$repeater->add_control(
-			'price',
-			[
-				'label' => __( 'Price', 'elementor-pro' ),
-				'type' => Controls_Manager::TEXT,
-				'dynamic' => [
-					'active' => true,
-				],
-			]
-		);
-		
-		$repeater->add_control(
-			'title',
-			[
-				'label' => __( 'Title', 'elementor-pro' ),
-				'type' => Controls_Manager::TEXT,
-				'default' => '',
-				'label_block' => 'true',
-				'dynamic' => [
-					'active' => true,
-				],
-			]
-		);
-		
-		$repeater->add_control(
-			'item_number',
-			[
-				'label' => __( 'Number', 'elementor-pro' ),
-				'type' => Controls_Manager::NUMBER,
-				'default' => '10',
-				'dynamic' => [
-					'active' => true,
-				],
-			]
-		);
-		
-		
-		$this->add_control(
-			'price_list',
-			[
-				'label' => __( 'List Items', 'elementor-pro' ),
-				'type' => Controls_Manager::REPEATER,
-				'fields' => $repeater->get_controls(),
-				'default' => [
-					[
-						'title' => __( 'First item on the list', 'elementor-pro' ),
-						'item_description' => __( 'Lorem ipsum dolor sit amet consectetur adipiscing elit dolor', 'elementor-pro' ),
-						'price' => '$20',
-						'link' => [ 'url' => '#' ],
-					],
-					[
-						'title' => __( 'Second item on the list', 'elementor-pro' ),
-						'item_description' => __( 'Lorem ipsum dolor sit amet consectetur adipiscing elit dolor', 'elementor-pro' ),
-						'price' => '$9',
-						'link' => [ 'url' => '#' ],
-					],
-					[
-						'title' => __( 'Third item on the list', 'elementor-pro' ),
-						'item_description' => __( 'Lorem ipsum dolor sit amet consectetur adipiscing elit dolor', 'elementor-pro' ),
-						'price' => '$32',
-						'link' => [ 'url' => '#' ],
-					],
-				],
-				'title_field' => '{{{ title }}}',
-			]
-		);
-		*/
           
 		 $repeater = new Repeater();
           
@@ -757,9 +692,8 @@ class UniteCreatorElementorWidget extends Widget_Base {
     			$controlType = Group_Control_Css_Filter::get_type();
     		break;
     		case UniteCreatorDialogParam::PARAM_HOVER_ANIMATIONS:
-    			$controlType = Controls_Manager::HOVER_ANIMATION;
+    			$controlType = Controls_Manager::SELECT;
     		break;
-    		
     		default:
     			
     			dmp("param not found");
@@ -771,7 +705,6 @@ class UniteCreatorElementorWidget extends Widget_Base {
     	//------- add special params ---------
     	
     	$value = $this->modifyValueByTypeUC($type, $value);
-    	
     	
     	if(empty($controlType)){
     		dmp("empty control param type");
@@ -879,7 +812,7 @@ class UniteCreatorElementorWidget extends Widget_Base {
     					$attribute = "padding";
     				break;
     				case UniteCreatorDialogParam::PARAM_BORDER_DIMENTIONS:
-    					$attribute = "border-width";
+    					$attribute = "border-radius";
     				break;
     			}
     			
@@ -1173,8 +1106,15 @@ class UniteCreatorElementorWidget extends Widget_Base {
     			$arrControl["name"] = $name;
     		break;
     		case UniteCreatorDialogParam::PARAM_HOVER_ANIMATIONS:
+    			
     			$arrControl["name"] = $name;
-    			$arrControl["prefix_class"] = "elementor-animation-";
+    			
+    			$options = HelperProviderCoreUC_EL::getHoverAnimationClasses(true);
+    			    			
+    			$arrControl["options"] = $options;
+    			
+    			$arrControl["default"] = UniteFunctionsUC::getVal($param, "default_value");
+    			
     		break;
     		case UniteCreatorDialogParam::PARAM_ICON_LIBRARY:
     			
@@ -1212,7 +1152,6 @@ class UniteCreatorElementorWidget extends Widget_Base {
     		case UniteCreatorDialogParam::PARAM_BOXSHADOW:
     		case UniteCreatorDialogParam::PARAM_BORDER:
     		case UniteCreatorDialogParam::PARAM_BACKGROUND:
-    		case UniteCreatorDialogParam::PARAM_HOVER_ANIMATIONS:
     		case UniteCreatorDialogParam::PARAM_CSS_FILTERS:
     			
     			$selector = UniteFunctionsUC::getVal($param, "selector");
@@ -1384,7 +1323,10 @@ class UniteCreatorElementorWidget extends Widget_Base {
     /**
      * add elementor param
      */
-    protected function addElementorParamUC($param){
+    protected function addElementorParamUC($param, $objControls = null){
+    	
+    	if(empty($objControls))
+    		$objControls = $this->objControls;
     	
     	$name = UniteFunctionsUC::getVal($param, "name");
     	$type = UniteFunctionsUC::getVal($param, "type");
@@ -1413,7 +1355,7 @@ class UniteCreatorElementorWidget extends Widget_Base {
     			$arrChildParams = $settings->getMultipleCreatorParams($param);
     			    			
     			foreach($arrChildParams as $childParam)
-    				$this->addElementorParamUC($childParam);
+    				$this->addElementorParamUC($childParam,$objControls);
     			
     		break;
     		case UniteCreatorDialogParam::PARAM_POSTS_LIST:
@@ -1430,7 +1372,7 @@ class UniteCreatorElementorWidget extends Widget_Base {
     			$arrChildParams = $settings->getMultipleCreatorParams($param);
     			
     			foreach($arrChildParams as $childParam)
-    				$this->addElementorParamUC($childParam);
+    				$this->addElementorParamUC($childParam, $objControls);
     			
     		break;
     		case UniteCreatorDialogParam::PARAM_TYPOGRAPHY:
@@ -1452,7 +1394,7 @@ class UniteCreatorElementorWidget extends Widget_Base {
     					
     					$groupType = $arrControl["type"];
     					    					
-    					$values = $this->objControls->add_group_control($groupType, $arrControl);
+    					$values = $objControls->add_group_control($groupType, $arrControl);
     					    					
     				break;
     				default:
@@ -1462,11 +1404,11 @@ class UniteCreatorElementorWidget extends Widget_Base {
     						
     						unset($arrControl["uc_responsive"]);
     						    						
-    						$this->objControls->add_responsive_control($name, $arrControl);
+    						$objControls->add_responsive_control($name, $arrControl);
     						
     					}else{
     						
-    						$this->objControls->add_control($name, $arrControl);
+    						$objControls->add_control($name, $arrControl);
     						
     					}
     					    					
@@ -1475,7 +1417,52 @@ class UniteCreatorElementorWidget extends Widget_Base {
     		break;
     	}
     	
+    	//add some child params
+    	$this->checkAddRelatedControls($param, $objControls);
     	
+    }
+    
+    /**
+     * add image sizes control
+     */
+    private function addImageSizesControl($paramImage, $objControls){
+    	
+    	$title = UniteFunctionsUC::getVal($paramImage, "title");
+    	$name = UniteFunctionsUC::getVal($paramImage, "name");
+    	
+    	$arrSizes = UniteFunctionsWPUC::getArrThumbSizes();
+    	
+    	$arrSizes = array_flip($arrSizes);
+    	
+    	$param = array();
+    	$param["type"] = UniteCreatorDialogParam::PARAM_DROPDOWN;
+    	$param["title"] = $title .= " ".__("Size","unlimited-elements-for-elementor");
+    	$param["name"] = $name .= "_size";
+    	$param["options"] = $arrSizes;
+    	$param["default_value"] = "medium_large";
+    	
+    	$this->addElementorParamUC($param, $objControls);
+    }
+    
+    
+    /**
+     * add related controls for some params like image
+     */
+    private function checkAddRelatedControls($param, $objControls){
+    	
+    	$type = UniteFunctionsUC::getVal($param, "type");
+    	
+    	switch($type){
+    		case UniteCreatorDialogParam::PARAM_IMAGE:
+    			
+    			$isAddSizes = UniteFunctionsUC::getVal($param, "add_image_sizes");
+    			$isAddSizes = UniteFunctionsUC::strToBool($isAddSizes);
+    			
+    			if($isAddSizes == true)
+    				$this->addImageSizesControl($param, $objControls);
+    			    			
+    		break;
+    	}
     	
     }
     

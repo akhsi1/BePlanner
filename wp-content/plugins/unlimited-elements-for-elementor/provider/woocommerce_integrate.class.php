@@ -14,7 +14,7 @@ class UniteCreatorWooIntegrate{
 	
 	const POST_TYPE_PRODUCT = "product";
 	const PRODUCT_TYPE_VARIABLE = "variable";
-	
+		
 	private $currency;
 	private $currencySymbol;
 	private $urlCheckout;
@@ -127,12 +127,20 @@ class UniteCreatorWooIntegrate{
 		$params = "add-to-cart={$productID}";
 		
 		$urlAddCart = UniteFunctionsUC::addUrlParams($this->urlCurrentPage, $params);
+    	$type = UniteFunctionsUC::getVal($arrProduct, "woo_type");
 		
     	$arrProduct["woo_link_addcart_cart"] = UniteFunctionsUC::addUrlParams($this->urlCart, $params);
     	$arrProduct["woo_link_addcart_checkout"] = UniteFunctionsUC::addUrlParams($this->urlCheckout, $params);
     	    	
     	//add html ajax add to cart
     	$addCartAttributes = "href=\"{$urlAddCart}\" data-quantity=\"1\" class=\"uc-button-addcart product_type_simple add_to_cart_button ajax_add_to_cart\" data-product_id=\"{$productID}\" data-product_sku=\"{$productSku}\" rel=\"nofollow\"";
+		
+    	if($type == self::PRODUCT_TYPE_VARIABLE){
+    		
+    		$urlProduct = get_permalink($productID);
+    		
+    		$addCartAttributes = "href=\"{$urlProduct}\" class=\"uc-button-addcart\" ";
+    	}
     	
     	$arrProduct["woo_addcart_ajax_attributes"] = $addCartAttributes;
     	

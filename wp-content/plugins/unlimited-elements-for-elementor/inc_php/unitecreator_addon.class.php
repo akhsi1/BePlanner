@@ -2064,6 +2064,78 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 			return($arrAddon);
 		}
 		
+		private function a__________SET_PARAM_VALUES________(){}
+		
+		/**
+		 * set responsive param values from another fields if available
+		 */
+		private function setResponsiveParamValues($param, $name, $arrValues){
+			
+			//dmp($arrValues);
+			
+			$isResponsive = UniteFunctionsUC::getVal($param, "is_responsive");
+			$isResponsive = UniteFunctionsUC::strToBool($isResponsive);
+						
+			if($isResponsive == false)
+				return($param);
+			
+			if(isset($arrValues[$name."_tablet"]) == false)
+				return($param);
+
+			$defaultValueTablet = UniteFunctionsUC::getVal($param, "default_value_tablet");
+			$defaultValueMobile = UniteFunctionsUC::getVal($param, "default_value_mobile");
+			
+			$param["value_tablet"] = UniteFunctionsUC::getVal($arrValues, $name."_tablet", $defaultValueTablet);
+			$param["value_mobile"] = UniteFunctionsUC::getVal($arrValues, $name."_mobile", $defaultValueMobile);
+						
+			return($param);
+		}	
+		
+		
+		/**
+		 * set params values work
+		 * type: main,items
+		 */
+		private function setParamsValuesWork($arrValues, $arrParams, $type){
+						
+			$this->validateInited();
+			
+			if(empty($arrValues))
+				return($arrParams);
+			
+			if(!is_array($arrValues))
+				UniteFunctionsUC::throwError("The values shoud be array");
+			
+			foreach($arrParams as $key => $param){
+			    
+				$name = UniteFunctionsUC::getVal($param, "name");
+				
+				if(empty($name))
+					continue;
+				
+				$defaultValue = UniteFunctionsUC::getVal($param, "default_value");
+				
+				$type = UniteFunctionsUC::getVal($param, "type");
+				
+				$value = UniteFunctionsUC::getVal($arrValues, $name, $defaultValue);
+				
+				$value = $this->objProcessor->getSpecialParamValue($type, $name, $value, $arrValues);
+				
+				$param["value"] = $value;
+				
+				$param = $this->setResponsiveParamValues($param, $name, $arrValues);
+				
+				$param = $this->objProcessor->setExtraParamsValues($type, $param, $name, $arrValues);
+				
+				//set responsive values								
+				$arrParams[$key] = $param;
+				
+			}
+						
+			return($arrParams);
+		}
+		
+		
 		private function a__________SETTERS________(){}
 		
 		/**
@@ -2136,71 +2208,6 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 		}
 		
 		
-		/**
-		 * set responsive param values from another fields if available
-		 */
-		private function setResponsiveParamValues($param, $name, $arrValues){
-			
-			//dmp($arrValues);
-			
-			$isResponsive = UniteFunctionsUC::getVal($param, "is_responsive");
-			$isResponsive = UniteFunctionsUC::strToBool($isResponsive);
-						
-			if($isResponsive == false)
-				return($param);
-			
-			if(isset($arrValues[$name."_tablet"]) == false)
-				return($param);
-
-			$defaultValueTablet = UniteFunctionsUC::getVal($param, "default_value_tablet");
-			$defaultValueMobile = UniteFunctionsUC::getVal($param, "default_value_mobile");
-			
-			$param["value_tablet"] = UniteFunctionsUC::getVal($arrValues, $name."_tablet", $defaultValueTablet);
-			$param["value_mobile"] = UniteFunctionsUC::getVal($arrValues, $name."_mobile", $defaultValueMobile);
-						
-			return($param);
-		}	
-		
-		/**
-		 * set params values work
-		 * type: main,items
-		 */
-		private function setParamsValuesWork($arrValues, $arrParams, $type){
-							
-			$this->validateInited();
-			
-			if(empty($arrValues))
-				return($arrParams);
-			
-			if(!is_array($arrValues))
-				UniteFunctionsUC::throwError("The values shoud be array");
-			
-			foreach($arrParams as $key => $param){
-			    
-				$name = UniteFunctionsUC::getVal($param, "name");
-				
-				if(empty($name))
-					continue;
-				
-				$defaultValue = UniteFunctionsUC::getVal($param, "default_value");
-				
-				$type = UniteFunctionsUC::getVal($param, "type");
-				
-				$value = UniteFunctionsUC::getVal($arrValues, $name, $defaultValue);
-				
-				$value = $this->objProcessor->getSpecialParamValue($type, $name, $value, $arrValues);
-				
-				$param["value"] = $value;
-				
-				$param = $this->setResponsiveParamValues($param, $name, $arrValues);
-				
-				//set responsive values								
-				$arrParams[$key] = $param;
-				
-			}
-						
-			return($arrParams);
-		}
 		
 		
 		/**

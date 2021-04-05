@@ -1200,6 +1200,14 @@ function wppb_check_field_on_edit_add( $message, $fields, $required_fields, $met
                     $message .= __( "The meta-name cannot be empty\n", 'profile-builder' );
                 }
 
+                //check if the meta-name starts or ends with a space
+                if ( strpos( $posted_values['meta-name'], " " ) === 0 ) {
+                    $message .= __( "The meta-name cannot begin with a space\n", 'profile-builder' );
+                }
+                if ( strpos( $posted_values['meta-name'], " " ) === strlen( $posted_values['meta-name'] ) - 1 ) {
+                    $message .= __( "The meta-name cannot end with a space\n", 'profile-builder' );
+                }
+
                 // meta names that are reserved and cannot be used as part of other meta names
                 $reserved_meta_name_list_strict = apply_filters( 'wppb_unique_meta_name_list_strict', array( 'map' ) );
                 // skip meta name check for these fields

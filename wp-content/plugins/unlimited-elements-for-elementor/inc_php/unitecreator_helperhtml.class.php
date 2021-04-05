@@ -55,7 +55,7 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 				$selected = "";
 				$default = trim($default);
 				if(empty($default))
-					$selected = " selected ";
+					$selected = " selected='selected' ";
 					
 				$itemText = $addDataText;
 				if(empty($itemText))
@@ -69,11 +69,11 @@ defined('UNLIMITED_ELEMENTS_INC') or die('Restricted access');
 		
 				if($assoc == false){
 					if($item == $default) 
-						$selected = " selected ";
+						$selected = " selected='selected' ";
 				}
 				else{
 					if(trim($key) == trim($default))
-						$selected = " selected ";
+						$selected = " selected='selected' ";
 				}
 				
 				$addHtml = "";

@@ -495,7 +495,7 @@ class UniteCreatorOutputWork extends HtmlOutputBaseUC{
 	/**
 	 * get width style
 	 */
-	private function processParamCSSSelector_border_getWidthStyle($param, $device = "desktop"){
+	private function processParamCSSSelector_border_getRadiusStyle($param, $device = "desktop"){
 		
 		$widthTop = UniteFunctionsUC::getVal($param, "width_{$device}_top");
 		$widthRight = UniteFunctionsUC::getVal($param, "width_{$device}_right");
@@ -505,16 +505,16 @@ class UniteCreatorOutputWork extends HtmlOutputBaseUC{
 		$style = "";
 		
 		if(trim($widthTop) !== "")
-			$style .= "border-top-width:{$widthTop}px;";
+			$style .= "border-top-left-radius:{$widthTop}px;";
 		
 		if(trim($widthBottom) !== "")
-			$style .= "border-bottom-width:{$widthBottom}px;";
+			$style .= "border-bottom-left-radius:{$widthBottom}px;";
 		
 		if(trim($widthRight) !== "")
-			$style .= "border-right-width:{$widthRight}px;";
+			$style .= "border-top-right-radius:{$widthRight}px;";
 		
 		if(trim($widthLeft) !== "")
-			$style .= "border-left-width:{$widthLeft}px;";
+			$style .= "border-bottom-left-radius:{$widthLeft}px;";
 		
 		return($style);
 	}
@@ -543,12 +543,12 @@ class UniteCreatorOutputWork extends HtmlOutputBaseUC{
 		
 		$style .= "border-color:{$color};";
 		
-		$styleWidth = $this->processParamCSSSelector_border_getWidthStyle($param);
+		$styleWidth = $this->processParamCSSSelector_border_getRadiusStyle($param);
 		
 		$style .= $styleWidth;
 		$css = "{$selector}{{$style}}";
 		
-		$styleTablet = $this->processParamCSSSelector_border_getWidthStyle($param, "tablet");
+		$styleTablet = $this->processParamCSSSelector_border_getRadiusStyle($param, "tablet");
 		
 		if(!empty($styleTablet)){
 			
@@ -558,7 +558,7 @@ class UniteCreatorOutputWork extends HtmlOutputBaseUC{
 			$css .= "\n".$styleTablet;
 		}
 		
-		$styleMobile = $this->processParamCSSSelector_border_getWidthStyle($param, "mobile");
+		$styleMobile = $this->processParamCSSSelector_border_getRadiusStyle($param, "mobile");
 		
 		if(!empty($styleMobile)){
 			$styleMobile = "{$selector}{{$styleMobile}}";
@@ -932,7 +932,7 @@ class UniteCreatorOutputWork extends HtmlOutputBaseUC{
 				$style = $this->processParamCSSSelector_dimentions($param, $selector, "margin");
 			break;
 			case UniteCreatorDialogParam::PARAM_BORDER_DIMENTIONS:
-				$style = $this->processParamCSSSelector_dimentions($param, $selector, "border-width");
+				$style = $this->processParamCSSSelector_dimentions($param, $selector, "border-radius");
 			break;
 			case UniteCreatorDialogParam::PARAM_BACKGROUND:
 				$style = $this->processParamCSSSelector_background($param, $selector);				
