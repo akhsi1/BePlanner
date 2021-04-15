@@ -1,0 +1,63 @@
+
+/*Main style*/
+.wpks_Selected_Element {
+    -webkit-transition: all 0.5s !important;
+    transition: all 0.5s !important;
+    -moz-box-shadow: 0px 0px 19px 0px #32cb02;
+    -webkit-box-shadow: 0px 0px 19px 0px #32cb02;
+    -o-box-shadow: 0px 0px 19px 0px #32cb02;
+    box-shadow: 0px 0px 19px 0px #32cb02;
+    -webkit-animation: anim_style 1400ms infinite;
+    -moz-animation: anim_style 1400ms infinite;
+    -o-animation: anim_style 1400ms infinite;
+    animation: anim_style 1400ms infinite;
+}
+
+@-o-keyframes anim_style {
+    0% {
+        -o-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+    50% {
+        -o-box-shadow: 0px 0px 19px 0px #32cb02;
+    }
+    90% {
+        -o-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+}
+
+@-moz-keyframes anim_style {
+    0% {
+        -moz-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+    50% {
+        -moz-box-shadow: 0px 0px 19px 0px #32cb02;
+    }
+    90% {
+        -moz-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+}
+
+@-webkit-keyframes anim_style {
+    0% {
+        -webkit-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+    50% {
+        -webkit-box-shadow: 0px 0px 19px 0px #32cb02;
+    }
+   90% {
+        -webkit-box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+}
+
+@keyframes anim_style {
+    0% {
+        box-shadow: 0px 0px 9px 0px #32cb02;
+    }
+    50% {
+        box-shadow: 0px 0px 19px 0px #32cb02;
+    }
+    90% {
+        box-shadow: 0px 0px 9px 0px #32cb02;
+
+    }
+}

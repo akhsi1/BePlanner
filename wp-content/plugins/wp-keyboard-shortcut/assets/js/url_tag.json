@@ -1,0 +1,17 @@
+[
+  {
+    "name": "{{home_url}}"
+  },
+  {
+    "name": "{{admin_url}}"
+  },
+  {
+    "name": "{{logout_url}}"
+  },
+  {
+    "name": "{{user_name}}"
+  },
+  {
+    "name": "{{user_id}}"
+  }
+]
