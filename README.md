@@ -13,7 +13,7 @@ Revitalize Hub provides several functions:
 - **Budget Now**: Make an online budget plan and generate an expenses report.
 
 ### VISIT US AT [Revhub.ml](https://revhub.ml)
-![landingPage](/gitResources/landingPage.png "RevHub Landing")
+[![landingPage](/gitResources/landingPage.png "RevHub Landing")](https://revhub.ml)
 
 
 
