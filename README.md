@@ -12,8 +12,8 @@ Revitalize Hub provides several functions:
 - **Suburbs Livability**: Search for a specific suburb and check its livability level regarding its median rent, distance to support services and crime rate.
 - **Budget Now**: Make an online budget plan and generate an expenses report.
 
-
 ### VISIT US AT [Revhub.ml](https://revhub.ml)
+![landingPage](/gitResources/landingPage.png "RevHub Landing")
 
 
 
