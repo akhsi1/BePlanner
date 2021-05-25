@@ -8,6 +8,8 @@ Victoria is currently facing the crisis of youth homelessness, 20% of people exp
 
 Revitalize Hub is a website which aims to prevent young Victorians from being homeless. The core ideas of the website include helping young Victorians find the help they need, helping them find a better suburb to live in and developing their budgeting habits to enhance their ability to manage their finances.
 
+### VISIT US AT [Revhub.ml](https://revhub.ml)
+
 # Features
 
 ## 1. View Trends
@@ -32,8 +34,6 @@ Motivates users to take actions. Make an online budget plan and generate an expe
 
 ![expenseReport](/gitResources/expenseReport.png "Generate Expense Report")
 
-
-# VISIT US AT [Revhub.ml](https://revhub.ml)
 
 # Expo Winner Award
 ![expo](/gitResources/expo.png "Expo Award")
