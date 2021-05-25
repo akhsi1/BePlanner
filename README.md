@@ -1,7 +1,7 @@
 [![landingPage](/gitResources/landingPage.png "RevHub Landing")](https://revhub.ml)
 
 # Revitalize Hub
-Winning project of Monash Industry Experience, Team: TP19. 
+Winning project of Monash Industry Experience EXPO, Team: TP19. 
 
 ## Project Overview				
 Victoria is currently facing the crisis of youth homelessness, 20% of people experiencing homelessness in Victoria are aged between 18 and 24. Particularly young adults are feeling worried about being homeless due to financial hardship. And financial difficulty is one of the main reasons for their homelessness.
@@ -18,7 +18,7 @@ Introduce the current state of Victoria's homeless population, showcase relevant
 ## 2. Find Services
 Display specific information about the helping center and supporting organizations that can provide help to users. 
 
-![findServices](/gitResources/viewTrends.png "Find Services")
+![findServices](/gitResources/findServices.png "Find Services")
 
 ## 3. Suburb Livability Index
 Search for a specific suburb and check its livability level regarding its median rent, distance to support services and crime rate.
@@ -33,9 +33,9 @@ Motivates users to take actions. Make an online budget plan and generate an expe
 ![expenseReport](/gitResources/expenseReport.png "Generate Expense Report")
 
 
-### VISIT US AT [Revhub.ml](https://revhub.ml)
+# VISIT US AT [Revhub.ml](https://revhub.ml)
 
-### Expo Award
+# Expo Winner Award
 ![expo](/gitResources/expo.png "Expo Award")
 
 
