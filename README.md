@@ -20,6 +20,8 @@ Introduce the current state of Victoria's homeless population, showcase relevant
 ## 2. Find Services
 Display specific information about the helping center and supporting organizations that can provide help to users. 
 
+![allServices](/gitResources/allServices.png "All Services")
+
 ![findServices](/gitResources/findServices.png "Find Services")
 
 ## 3. Suburb Livability Index
